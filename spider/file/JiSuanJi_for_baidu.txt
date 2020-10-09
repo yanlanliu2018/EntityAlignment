@@ -1,0 +1,382 @@
+数据
+网络安全
+Network Security
+算法
+Algorithm
+计算机
+computer
+电脑
+云计算
+Cloud Computing
+互联网
+internet
+.com
+.top
+.cn
+.cx
+.cc等
+机构性域名和地理性域名
+数据结构
+操作系统
+计算机网络
+java
+计算机编程语言
+JAVA
+c语言
+C语言
+The C Programming Language
+软件
+Computer engineering & Software
+硬件
+Hardware
+笔记本
+노트북
+laptop
+The notebook
+便携式电脑
+笔记型电脑
+并行
+parallel
+并发
+Concurrent
+虚拟
+unreal
+异步
+进程
+process
+线程
+thread
+执行绪；轻量进程
+互斥
+死锁
+Deadlock
+新增
+Cable Loading
+脱机处理
+off-line
+计算机技术
+批处理系统
+分时操作系统
+时操作系统
+Time-sharing Operating System
+分布式软件系统
+批处理
+Batch
+批处理脚本
+bat
+CPU
+中央处理器
+central processing unit
+模拟信号
+analogue signal
+数字信号
+Digital signal
+脱机
+Offline
+局域网
+LAN
+物理层
+Physical Layer
+数据链路层
+Data link layer
+网络层
+The network layer
+传输层
+Transport Layer
+运输层
+会话层
+表示层
+应用层
+MAC地址
+MAC Address
+Media Access Control地址
+硬件位址
+广域网
+WAN
+白盒测试
+White box testing
+黑盒测试
+Black Box Testing
+功能测试
+管理系统
+Management System
+物联网
+Internet of Things
+IOT
+栈
+stack
+堆栈
+队列
+存储空间
+dedicated space
+线性表
+linear list
+文件
+字符串
+Character string
+串(String)
+数组
+程序
+微指令
+microinstruction
+解释执行
+拓扑结构
+邻接表
+adjacency list
+关键路径
+二叉树
+Binary Tree
+广义表
+Generalized table
+图
+遍历
+DFS
+内存分配
+内存
+Memory
+内存储器
+芯片
+David Linus Lieberman
+大卫·林纳斯·利伯曼
+Microchip
+Micro
+运算
+集成电路
+Integrated circuit
+IC
+带宽
+Band Width
+频带宽度
+频宽
+信号
+시그널
+Signal
+借口
+显卡
+显示卡
+Video card
+总线
+bus
+串行
+Universal
+以太网
+ethernet
+通讯
+communicate
+正弦
+显示器
+display
+传感器
+数据库
+Database
+索引
+index
+页码
+page number
+唯一索引
+Unique index
+聚集索引
+Clustered Index
+聚簇索引
+聚类索引
+簇集索引
+逻辑顺序
+结果集
+计算机函数
+Computer Function
+程序函数
+哈希表
+Hash table
+散列表
+哈夫曼树
+Huffman Tree
+最优树
+叶子结点
+leaf node
+叶子
+节点
+Node
+结点
+软件工程
+编码
+coding
+伙伴系统
+堆排序
+Heapsort
+快速排序算法
+quick sort
+快速排序
+构造函数
+constructor
+ISAM
+瀑布模型
+Waterfall Model
+原型模型
+喷泉模型
+fountain model
+结构化方法
+对象
+character
+可视化
+可行性
+Feasibility
+分层
+流程图
+FlowChart
+框图
+需求分析
+requirement analysis
+软件需求分析
+模块化
+设计准则
+Design Rules
+数据流
+data stream
+界面
+JIEMIAN
+对话框
+输入
+input
+输出
+to export; to output
+系统
+system
+测试
+Test
+Measure
+调试
+shakedown test; debug; debugging ;
+排错除错
+统一建模语言
+linux
+软件开发
+Software development
+容器
+设计模式
+Design pattern
+结构化查询语言
+SQL
+位运算
+欲在烧
+bitwise operation
+整型
+三元组
+TCP
+传输控制协议
+Transmission Control Protocol
+http
+超文本传输协议
+HTTP
+HyperText Transfer Protocol
+因特网
+Internet
+接入网
+丢包
+Packet loss
+电路交换
+分组交换
+packet switching
+时延
+delay
+协议
+protocol
+端到端
+The end-to-end
+封装
+进程通信
+运输服务
+get
+Post
+post
+缓存
+cache
+电子邮件
+Electronic MAIL
+dns
+域名系统（服务）协议
+Domain Name System
+DNS
+套接字
+socket
+分布式
+DC Power
+P2P
+互联网金融点对点借贷平台
+多路复用
+Multiplexing
+报文
+拥塞控制
+congestion control
+流量控制
+traffic control
+虚电路
+虚连接或虚通道
+数据报
+路由器
+Router
+网关设备
+网络模型
+广播
+Radio broadcasting；Broadcast；Be on the air；Airing
+多播
+编址
+密码学
+cryptology
+多媒体
+Multimedia
+负载均衡
+Load Balancing
+负载分担
+校验和
+奇偶校验
+Parity Check
+链路
+交换机
+Switch
+数字签名
+20世纪科学成就
+服务器
+server
+伺服器
+路由选择
+转发
+[transmit]
+处理机
+调度算法
+先来先服务
+时间片
+实时调度
+IO
+分段
+分页
+文件系统
+目录
+catalogue
+口令
+password
+文件共享
+后台
+ground
+网络互联
+内核
+kernel
+二进制
+binary system
+有符号数
+数值型数据
+浮点型
+表达式
+A regular expression
+机读目录
+抽象
+调试器
+混合内核
+Windows操作系统
+视窗
+Windows
+自顶向下
+top-down
+框架
+Framework
+磁盘分区
+Disk partition

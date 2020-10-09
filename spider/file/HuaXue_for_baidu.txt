@@ -1,0 +1,405 @@
+氢气
+hydrogen
+纯氢
+液氢
+氢
+Hydrogen
+Hydrogenium
+氦
+Helium
+氦气
+HELIUM
+铁
+氧化铁
+Iron（III）oxide
+三氧化二铁
+铁元素
+Iron element
+铜
+氧化铜
+Copper(II) oxide
+C.I.颜料黑15; 氧化铜; 丝状氧化铜; 线状氧化铜; 纳米氧化铜; 电镀级氧化铜; 氧化铜(II)
+银
+汞
+Mercury
+水银
+碳
+碳; 活性碳
+Carbon
+Activated carbon
+密度
+density
+化合价
+Valence
+结合水
+bound water
+自由水
+free water
+体相水
+滞留水
+单糖
+Monosaccharide
+多糖
+polysaccharide
+肽键
+peptide bond
+酰胺键
+N肽
+多肽
+polypeptide
+氨基酸
+amino acids
+蒸发
+《蒸发》
+液体
+Liquid
+新增
+Cable Loading
+甲醇
+methyl alcohol
+羟基甲烷
+木醇
+木精
+乙醇
+Ethyl Alcohol
+酒精
+火酒
+Ethanol
+氨气
+Ammonia
+氧化
+过氧化氢
+双氧水
+乙氧烷
+氟化氢
+氢氟酸
+Hydrofluoric acid
+氯化氢
+hydrochloric acid
+Hydrogen chloride Chlorane
+硫化氢
+Hydrogen Sulfide
+stinkdamp
+sulfureted hydrogen
+21006
+氢硫酸
+盐酸
+Chloran
+Hydrochloric Acid
+氢氯酸
+硫酸
+Sulfuric acid
+硝酸
+Nitric acid
+硝镪水
+磷酸
+trihydroxidooxidophosphorus phosphoric acid
+正磷酸
+原磷酸
+氯化钠
+Sodium Chloride
+AS
+Sodium chloride
+一氧化碳
+carbon monoxide
+煤气
+二氧化硫
+Sulfur dioxide
+亚硫酸酐
+氢氧化钠
+Sodium hydroxide
+烧碱
+火碱
+苛性钠
+分子
+Molecule
+原子
+atomy
+元素
+化学
+Chemistry
+原子结构
+分子式
+molecular formula
+有机化学
+有机化合物
+炭化
+dry distillation
+干馏
+定量分析
+quantitative analysis
+定性分析
+qualitative analysis
+基团
+radical group
+草酸
+Oxalic acid；Ethanedioic acid；aquisal
+乙二酸
+修酸
+酒石酸
+tartaric acid
+2
+3-二羟基丁二酸
+异构现象
+自由基
+Free radical
+游离基
+电子对
+共价键
+covalent bond
+价键理论
+电子构型
+光谱分析
+逆反应
+离子反应
+协同反应
+热力学
+无机化学
+Inorganic Chemistry
+质量守恒定律
+Law of conservation of mass
+物质不灭定理
+磁共振
+Spin Magnetic Resonance Phenomenon
+质谱
+mass spectra;mass spectrum
+质谱法
+色谱
+色层法或层析法
+电荷
+electric charge
+电荷守恒
+亨利定律
+能量守恒
+Conservation of energy
+物理化学
+Physical Chemistry
+结构化学
+structural chemistry
+分子轨道
+高真空
+high vacuum
+激光
+胶体
+Colloid
+胶状分散体
+电化学
+气体
+gases
+恒温
+constant temperature
+溶液
+相平衡
+密封
+seal
+自由度
+degrees of freedom
+自由度[物理学的自由度]
+气压
+atmospheric pressure；air pressure
+化学平衡
+chemical equilibrium
+统计热力学
+电解质
+Electrolyte
+迈克尔·法拉第
+Michael Faraday
+正极
+positive pole
+负极
+可逆电池
+电动势
+电解
+极化作用
+污水处理
+water filtration
+water purification
+wastewater treatment
+电镀
+Electroplating
+碰撞理论
+过渡态
+活化分子
+分子质量
+临界能
+粒子
+particle
+基本粒子
+化学键
+chemical bond
+化学反应
+浓度
+concentration
+物质的量浓度
+化学反应速率
+chemical reaction rate
+催化剂
+防腐剂
+Preservatives
+基元反应
+elementary reaction
+稳定性
+The stability of
+产物
+product
+双膜理论
+回流比
+reflux ration
+分离
+separatio
+精馏
+rectification
+含水量
+含水率
+干燥器
+恒温水箱
+离心泵
+Centrifugal pump
+叶轮
+Impeller
+气缚
+air sinuses
+转速
+Rotational Speed
+压头
+杨程
+Yang Cheng
+管道
+Conduit
+管路
+粘度
+viscosity
+压缩比
+真空
+冷凝器
+Condense
+三脚架
+tripod
+酒精灯
+alcohol burner
+广口瓶
+jar
+量杯
+锥形瓶
+beakerfla
+托盘天平
+Counter balance
+U型管
+移液管
+烧杯
+beaker
+容量瓶
+容量品
+volumetric flask
+试管架
+test tube rack
+蒸发皿
+Evaporating dish
+储气罐
+精细化工
+石油化学工业
+petrochemical industry
+石油化工
+塑料
+plastic
+合成树脂
+沥青
+Bitumen
+Asphalt
+高分子化学
+polymer chemistry
+化合物
+compound
+合成橡胶
+hechengxiangjiao
+纤维
+Fiber
+Fibre
+金属材料
+高分子化合物
+macromolecular compound
+高分子
+大分子
+高聚物
+蛋白质
+朊
+protein
+“朊（ruǎn)”
+环化
+cyclizing
+平均分子量
+官能团
+functional group
+醋酸纤维素
+cellulose acetate
+醋酸纤维等
+双螺旋
+Helix
+树脂
+Resin
+造纸术
+papermaking technology
+耐热高分子
+二硫化碳
+carbon disulfide
+二硫化碳素
+炸药
+Explosive material
+酚醛树脂
+PHENOL-FORMALDEHYDE RESIN
+电木
+绝缘材料
+副产物
+环境工程
+复合材料
+Composite Material
+腐蚀
+RUST
+化学性质
+chemical property
+聚苯乙烯
+Polystyrene
+ポリスチレン
+工程塑料
+engineering-plastics
+涂料
+coating products
+TPU
+热塑性聚氨酯弹性体橡胶
+Thermoplastic polyurethanes
+皮革
+Leather;Hide
+反应釜
+红外检测
+反应活性
+引发剂
+initiator
+自由基引发剂
+可逆反应
+reversible reaction
+对峙反应
+链转移
+阻聚剂
+缓聚剂
+开环聚合
+配位聚合
+Ziegler-Natta polymerization；insertion polymerizat
+齐格勒（纳塔型）聚合或插入聚合
+二甲苯
+dimethylbenzene
+溶剂
+Solvent
+提取
+稀释
+Dilution
+应用化学
+Applied Chemistry
+键能
+取代反应
+substitution reaction
+SN
+SEAr
+SNAr
+SH
+稀有气体
+废气

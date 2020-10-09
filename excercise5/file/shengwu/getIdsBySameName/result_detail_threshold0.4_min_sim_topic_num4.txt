@@ -1,0 +1,2 @@
+threshold accurate recall F-score aveCandNum CandNumCount row
+1 0.833 0.696 0.758 3.222 522 208

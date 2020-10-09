@@ -1,0 +1,433 @@
+Sonic
+刺猬索尼克
+Sonic the Hedgehog
+江豚
+finlessporpoise
+Neophocaena
+河马
+hippopotamus
+Common Hippopotamus
+Large Hippo
+Hippopotamus amphibius
+野兔
+Lepus sinensis
+蟑螂
+小强
+黄婆娘
+偷油婆
+cockroach
+仓鼠
+腮鼠
+搬仓鼠
+葵鼠
+Hamster
+Cricetidae
+云雀
+翠鸟
+Alcedo；kingfishers
+斑鸠
+乌龟
+朴志妍
+gummy
+Gumi
+蜘蛛
+牛蛙
+草鱼
+鲩
+油鲩
+草鲩
+白鲩
+草苞
+草根（东北）
+混子
+Grass carp
+Ctenopharyngodon idellus
+鲢鱼
+鲢子
+白鲢
+边鱼
+虎头鲨
+桑蚕
+家蚕
+蚕
+Bombyx mori Linnaeus
+青虾
+生物
+生命体
+有机体
+生物体
+细胞体
+繁殖
+breed
+生存
+Existence
+Subsistence
+Living
+达尔文
+查尔斯·罗伯特·达尔文
+Charles Robert Darwin
+生物圈
+Biosphere
+动物
+animal(s)
+植物
+菌类
+山珍
+门
+目
+mesh 属
+科
+种
+生物分类法
+细菌域
+原核生物
+Prokaryotes
+真核生物
+病毒
+计算机病毒
+Computer Virus
+真菌
+Fungus
+被子植物门
+Angiospermae
+苔藓
+moss
+Bryophyta
+蕨类植物门
+孢子植物
+产孢植物
+ascosporarum plantarum
+脊柱
+spine
+爬行动物
+蜥形纲
+Reptilia
+哺乳纲
+兽纲
+Mammalia
+支原体
+mycoplasma
+变形虫界
+变态发育
+Metamorphosis
+受精卵
+oosperm
+生命现象
+细胞器
+中心体
+centrosome
+叶绿体
+chloroplast
+线粒体
+有丝分裂
+Mitotic division
+间接分裂
+细胞壁
+应激性
+irritability
+兴奋性
+枯叶蝶
+生命起源理论
+Theory on life's origin
+生命
+life
+核酸
+nucleic acid
+有机分子
+organic molecule
+dna
+DNA
+密码子
+genetic code
+三联体密码
+核糖核酸
+Ribonucleic Acid
+RNA
+基因
+Gene
+脱氧核苷酸
+脱氧核糖核苷酸
+deoxynucleotide
+遗传效应
+Heredityeffect
+转录
+Transcription
+遗传信息
+隐性
+等位基因
+Allele
+对偶基因
+杂交水稻
+超级水稻
+hybrid rice
+基因分离
+染色体
+进化
+恶灵进化
+Evolve
+反射
+reflection
+体液调节
+动物激素
+协同作用
+synergistic effect
+增效作用
+内激素
+信息素
+pheromone
+外激素
+中枢神经系统
+Central Nervous System
+新陈代谢
+metabolism
+异化作用
+同化作用
+生物合成
+矿质元素
+呼吸作用
+respiration
+细胞呼吸
+无氧呼吸
+Anaerobic respiration
+厌氧呼吸
+有氧呼吸
+Aerobic respiration
+分裂生殖
+营养生殖
+减数分裂
+同源染色体
+homologous chromosomes
+联会
+synapsis
+配对
+四分体
+TETRAD
+种内互助
+种内斗争
+intraspecific competition
+种间关系
+生物群落
+Ecological community
+Biomes
+生产者
+producer
+消费者
+Consumer
+分解者
+decomposer
+还原者
+食物网
+food web
+生态平衡
+环境污染
+environmental pollution
+碳循环
+carbon cycle
+水华
+Algal Blooms
+富营养化
+Eutrophication
+赤潮
+Red Tide
+生物净化
+迁地保护
+生态学
+Ecology
+生物化学
+Biochemistry
+生物物理
+呼吸
+氧化作用
+发酵
+酦酵
+fermentation
+活细胞
+Living cell
+无机盐
+mineral salt;inorganic salt
+矿物质
+氨基酸
+amino acids
+单糖
+Monosaccharide
+细胞组织
+Tissue
+器官
+organ
+营养素
+nutrient
+物质代谢
+Substance metabolism
+生物力能学
+碳原子
+carbon
+生物碱
+细胞分化
+cellular differentiation
+乙酰辅酶A
+机械能
+mechanical energy
+乳糖
+lactose
+Lactosum anhydricum
+靶细胞
+target cell
+血糖
+Blood glucose
+代谢途径
+结构基因
+Structural Genes
+信息分子
+informational molecule
+低聚糖
+oligosaccharide
+寡糖
+基因调控
+化学结构
+chemical structure
+生物活性
+酶催化
+酶系统
+不可逆抑制剂
+电子传递
+electron transfer
+维生素
+vitamin
+维他命
+辅基
+Prosthetic group
+多肽
+polypeptide
+重排
+生长因子
+神经递质
+neurotransmitter
+递质
+突变
+Mutation
+抗原
+antigen
+抗体
+Antibody
+晶体结构
+电泳
+Electrophoresis
+同位素
+Isotope
+细胞学
+Cytology
+能量转换
+energy transformation
+分类学
+taxonomy
+量子生物学
+青霉素
+Benzylpenicillin
+盘尼西林
+青霉素钠
+苄青霉素钠
+传染病
+Infectious Diseases；epidemic
+呼吸系统
+Respiratory System
+呼吸道
+respiratorytract
+生化药理学
+病原体
+pathogens
+发酵饲料
+Fermented feed
+生物制品
+无
+有机酸
+Organic acid
+生物工程
+bioengineering
+细胞融合
+cell fusion
+诺贝尔化学奖
+Nobel prize winners in chemistry
+断裂基因
+split gene
+组织液
+tissue fluid
+interstitial fluid
+细胞间隙液（interstitial fluid）
+树根
+植物学
+绿色植物
+Viridiplantae
+植物学家
+Botanist
+形态学
+morphology
+电子显微镜
+electron microscope
+电镜
+植物标本
+Herbarium
+交互作用
+环境参数
+细胞学说
+cell theory
+有花植物
+Phanerogamae
+胚胎
+药用植物
+种群
+population
+种族
+人种
+哺乳动物
+胎生
+子宫
+Uterus；matrix
+胎盘
+placenta
+胞衣
+衣胞
+紫河车
+胎衣
+胎膜
+脐带
+funiculus umbilicalis
+umbilical cord
+输卵管
+鸭嘴兽
+鸭獭
+Platypus duckbill
+Duckmole
+Ornithorhynchus anatinus
+成活率
+发育条件
+母体
+果实
+fruit
+果子
+解剖
+青菜
+苦菜
+Brassica chinensis var chinensis
+输导组织
+Conducting tissue
+薄壁组织
+基本组织
+parenchyma
+细胞具有薄的初生壁
+成熟组织
+permanent tissue
+永久组织
+马铃薯
+地蛋
+洋芋
+山药蛋
+土豆
+potato
+Solanum tuberosum
+茄子
+江浙人称为六蔬
+广东人称为矮瓜
+eggplant
+胡萝卜
+植物体内运输
+Transport in plants
