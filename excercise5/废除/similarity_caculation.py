@@ -48,6 +48,7 @@ def txt_similarity_by_tfidf(entry1,candidates):
             result = id
     #返回对齐实体的id,以及他们之间的文本相似度
     return result,max_sim
+
 #使用cos计算两个向量之间的相似度
 def similarity_by_cos(x,y):
     result1 = 0.0

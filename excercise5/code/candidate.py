@@ -4,9 +4,6 @@ import re
 
 import redis
 
-from excercise4.code import Index
-
-
 class candidate():
     def __init__(self,name_db,key_word_db):
         '''
@@ -34,22 +31,6 @@ class candidate():
         # 获取关键字索引库的连接
         index_by_keyword = redis.Redis(**redisDbParams)
         self.keyword_redis=index_by_keyword
-
-    '''
-    # 仅根据实体的名称获取候选集{ids}
-    # 输入：待对齐实体
-    # 输出：一个id集合(set)，也就是候选集
-    '''
-    def get_candidate_by_sameName(self, entry):
-        name = entry[1]
-        # 使用set（ids）存储最终结果集合
-        ids_set = set()
-        # 将词条名的id挂载,使用‘['进行切分，因为在互动百科中词条名有[]备注
-        # 根据词条名查询ids，并将其并入ids_set
-        name = re.split('[（[]', name)[0]
-        ids = self.name_redis.smembers(str(name))
-        ids_set = ids_set.union(ids)
-        return ids_set
 
     '''
     # 根据实体的名称以及各个别名分别获取候选集{ids}
@@ -115,15 +96,8 @@ class candidate():
     '''
     将所有候选集合的交集作为最后结果返回
     '''
-    def get_candidate(self,entry,word_tfidf,threshold,cands_file):
-        # idsBySameName = self.get_candidate_by_sameName(entry)
-        # ids_set=idsBySameName
-        # idsByName = self.get_candidate_by_name(entry)
-        # ids_set = idsByName
+    def get_candidate(self,entry,word_tfidf,threshold):
+        idsByName = self.get_candidate_by_name(entry)
         idsByKeyword = self.get_candidate_by_keyword(word_tfidf,threshold)
-        ids_set = idsByKeyword
-        # ids_set=idsByName.intersection(idsByKeyword)
-        # 使用文件记录候选集的ids以及候选集的大小（candidates.txt)entry-id-num-ids
-        cands = open(cands_file, 'a', encoding='utf-8')
-        cands.write(str(entry[0]) + " " + str(len(ids_set)) + " " + str(ids_set) + '\n')
+        ids_set=idsByName.intersection(idsByKeyword)
         return ids_set

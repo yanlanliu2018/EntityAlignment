@@ -130,34 +130,14 @@ def main(database,baidu_table,hudong_table,file_for_WordIdfs,file_for_hudong_tfi
     data2txt(hudong,file_for_hudong_tfidf)
     data2txt(idfs, file_for_WordIdfs)
 
-def exe_for_one_data(data_name):
-    print("开始对"+data_name+"类词条计算")
-    baidudata = get_data("baike_spider", "baidu_"+data_name)
-    hudongdata = get_data("baike_spider", "hudong_"+data_name)
-    data2txt(baidudata, "../file/"+data_name+"/baidu_words.json")
-    data2txt(hudongdata, "../file/"+data_name+"/hudong_words.json")
+def exe_for_one_data(xueke):
+    print("开始对"+xueke+"类词条计算")
+    baidudata = get_data("baike_spider", "baidu_"+xueke)
+    hudongdata = get_data("baike_spider", "hudong_"+xueke)
+    data2txt(baidudata, "../file/"+xueke+"/tfidf/baidu_words.json")
+    data2txt(hudongdata, "../file/"+xueke+"/tfidf/hudong_words.json")
     datas = [baidudata, hudongdata]
     baidu, hudong, idfs = tf_idf(datas)
-    data2txt(baidu, "../file/"+data_name+"/baidu_tfidf.json")
-    data2txt(hudong, "../file/"+data_name+"/hudong_tfidf.json")
-    data2txt(idfs, "../file/"+data_name+"/WordIdfs.json")
-def exe_for_5_datas():
-    # 化学
-    print("开始对化学类词条计算")
-    exe_for_one_data("huaxue")
-
-    #计算机
-    exe_for_one_data("jisuanji")
-
-    # 人物
-    exe_for_one_data("renwu")
-
-    # 生物
-    exe_for_one_data("shengwu")
-
-    # 语文文学
-    exe_for_one_data("yuwenwenxue")
-
-
-# if __name__ == '__main__':
-
+    data2txt(baidu, "../file/"+xueke+"/tfidf/baidu_tfidf.json")
+    data2txt(hudong, "../file/"+xueke+"/tfidf/hudong_tfidf.json")
+    data2txt(idfs, "../file/"+xueke+"/tfidf/WordIdfs.json")

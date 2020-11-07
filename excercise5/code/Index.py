@@ -4,8 +4,6 @@ import redis
 import pymysql
 import json
 import re
-import math
-from collections import defaultdict
 
 # 获取百科数据
 #从mysql数据库中获取百科数据
@@ -119,73 +117,14 @@ def build_index_keyword_id(data,db,threshold):
     r.close()
     print('索引制作结束')
 
-def main(database,table,name_redis_db,tfidf_file,keyword_redis_db,threshold):
-    print("构建指称索引")
-    baidu_entries = get_data(database, table)
-    build_index_nameId(baidu_entries, name_redis_db)
-    print("构建关键词索引")
-    baidu_data = json.load(open(tfidf_file, encoding='utf-8'))
-    build_index_keyword_id(baidu_data, keyword_redis_db, threshold)
-    print("=======================================")
-
-def creat(threshold):
+def creatIndex(xueke,nameIndexDB,keywordIndexDB,threshold):
     # 针对百度百科五组词条数据构建索引
 
-    print("化学")
+    print(xueke)
     print("构建指称索引")
-    baidu_entries = get_data('baike_spider', 'baidu_huaxue')
-    build_index_nameId(baidu_entries, 1)
+    baidu_entries = get_data('baike_spider', 'baidu_'+xueke)
+    build_index_nameId(baidu_entries, nameIndexDB)
     print("构建关键词索引")
-    baidu_data = json.load(open('../file/huaxue/baidu_tfidf.json', encoding='utf-8'))
-    build_index_keyword_id(baidu_data, 2, threshold)
+    baidu_data = json.load(open('../file/'+xueke+'/tfidf/baidu_tfidf.json', encoding='utf-8'))
+    build_index_keyword_id(baidu_data, keywordIndexDB, threshold)
     print("=======================================")
-
-    print("计算机")
-    print("构建指称索引")
-    baidu_entries = get_data('baike_spider', 'baidu_jisuanji')
-    build_index_nameId(baidu_entries, 3)
-    print("构建关键词索引")
-    baidu_data = json.load(open('../file/jisuanji/baidu_tfidf.json', encoding='utf-8'))
-    build_index_keyword_id(baidu_data, 4, threshold)
-    print("=======================================")
-
-    print("人物")
-    print("构建指称索引")
-    baidu_entries = get_data('baike_spider', 'baidu_renwu')
-    build_index_nameId(baidu_entries, 5)
-    print("构建关键词索引")
-    baidu_data = json.load(open('../file/renwu/baidu_tfidf.json', encoding='utf-8'))
-    build_index_keyword_id(baidu_data, 6, threshold)
-    print("=======================================")
-
-    print("生物")
-    print("构建指称索引")
-    baidu_entries = get_data('baike_spider', 'baidu_shengwu')
-    build_index_nameId(baidu_entries, 7)
-    print("构建关键词索引")
-    baidu_data = json.load(open('../file/shengwu/baidu_tfidf.json', encoding='utf-8'))
-    build_index_keyword_id(baidu_data, 8, threshold)
-    print("=======================================")
-
-    print("语文文学")
-    print("构建指称索引")
-    baidu_entries = get_data('baike_spider', 'baidu_yuwenwenxue')
-    build_index_nameId(baidu_entries, 9)
-    print("构建关键词索引")
-    baidu_data = json.load(open('../file/yuwenwenxue/baidu_tfidf.json', encoding='utf-8'))
-    build_index_keyword_id(baidu_data, 10, threshold)
-    print("=======================================")
-
-if __name__ == '__main__':
-    # 针对百度百科五组词条数据构建索引
-
-    threshold=0.5
-    print("化学")
-    print("构建指称索引")
-    baidu_entries = get_data('baike_spider', 'baidu_huaxue')
-    build_index_nameId(baidu_entries, 1)
-    print("构建关键词索引")
-    baidu_data = json.load(open('../file/huaxue/baidu_tfidf.json', encoding='utf-8'))
-    build_index_keyword_id(baidu_data, 2, threshold)
-    print("=======================================")
-

@@ -4,8 +4,8 @@
 
 
 import json
-import time
-from excercise5.code import similarity_caculation, candidate, Index,LDA
+from excercise5.code import candidate, Index
+from excercise5.废除 import similarity_caculation
 
 '''
 使用索引与tfidf来做知识融合
@@ -39,7 +39,7 @@ def alignment_by_nameAndTFIDF(db,entity_table,threshold,name_db,key_word_db,resu
                 if cand_word_tfidf:
                     candidates[id]=cand_word_tfidf
             if len(candidates)!=0:
-                result_id,max_similarity=similarity_caculation.txt_similarity_by_tfidf(entity_word_tfidf,candidates)
+                result_id,max_similarity= similarity_caculation.txt_similarity_by_tfidf(entity_word_tfidf, candidates)
                 if(max_similarity>threshold):
                     alignment_entries.write(str(entry[0])+' '+str(result_id)+' '+str(max_similarity)+'\n')
 
@@ -78,7 +78,7 @@ def alignment_by_nameAndLDA(db,entity_table,threshold,name_db,key_word_db,result
                     candidates[id]=cand_words
             if len(candidates)!=0:
                 # result_id,max_similarity=similarity_caculation.txt_similarity_by_LDA(entity_words,candidates,topic_num)
-                result_id, max_similarity = similarity_caculation.txt_similarity_by_LDA_Model(entity_words, candidates,topic_num)
+                result_id, max_similarity = similarity_caculation.txt_similarity_by_LDA_Model(entity_words, candidates, topic_num)
                 if(max_similarity>min_sim):
                     alignment_entries.write(str(entry[0])+' '+str(result_id)+' '+str(max_similarity)+'\n')
 
