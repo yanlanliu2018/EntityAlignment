@@ -39,12 +39,15 @@ def alignment_by_nameAttrBert(xueke,entity_data1,entity_data2,tfidfs_entity1,can
     resultDetailFile = open(resultDetail_file,'a',encoding='UTF-8')
     candidatesFile = open(candidates_file,'a',encoding='UTF-8')
 
-    entryNumberFile = open(entryNumber_file,'w+',encoding='UTF-8')
+    entryNumberFile = open(entryNumber_file,'r',encoding='UTF-8')
     temp_entry_number = entryNumberFile.readline()
     num = 0
     if(temp_entry_number != ''):
         num = int(temp_entry_number)
+
+    entryNumberFile = open(entryNumber_file, 'w', encoding='UTF-8')
     while num<entity_data1.__len__():
+        print("已经对齐了" + str(num) + "条数据")
         entry1 = entities1[num]
         e_id_1=entry1[0]
         e_name_1 = entry1[1]
@@ -63,28 +66,33 @@ def alignment_by_nameAttrBert(xueke,entity_data1,entity_data2,tfidfs_entity1,can
                 entry2 = entities2[int(e_id_2)]
                 description2 = entry2[3]
 
-                attrSim,AttrSimList = entityAttrsSim(xueke=xueke,entity1=entry1,entity2=entry2,
-                                         edit_threshold=edit_threshold,bert_threshold=bert_threshold)
-                descSim = BertSupport().compute_cosine(word1=description1,word2=description2)
+                try:
+                    attrSim,AttrSimList = entityAttrsSim(xueke=xueke,entity1=entry1,entity2=entry2,
+                                             edit_threshold=edit_threshold,bert_threshold=bert_threshold)
+                    descSim = BertSupport().compute_cosine(word1=description1,word2=description2)
+                except Exception as e:
+                    print("num:"+str(num))
+                    entryNumberFile.write(str(num))
+                    raise Exception(e)
+
                 totalSimList[e_id_2] = [attrSim,descSim,AttrSimList]
-        resultId = entry1[0] #初始化
-        maxSim = 0
-        for e_id_2 in totalSimList:
-            simList = totalSimList[e_id_2]
-            sim = simList[0]*attrWeight+simList[1]*descWeight
-            if(sim>maxSim):
-                maxSim = sim
-                resultId = e_id_2
-        if(maxSim>count_threshold):
-            resultMapFile.write(str(e_id_1)+" "+str(resultId)+"\n")
-            resultDetailFile.write(
-                str(e_id_1)+" "+str(e_name_1)+" "+str(maxSim)+" "+
-                str(totalSimList[resultId][1])+" "+str(totalSimList[resultId][0])+" "+
-                str(totalSimList[resultId][2])+"\n")
-        candidatesFile.write(str(e_id_1) + " " + str(id_set.__len__()) + " " + str(id_set) + "\n")
-        print("已经对齐" + str(num) + "条数据")
+        if(id_set.__len__()>0):
+            resultId = entry1[0] #初始化
+            maxSim = 0
+            for e_id_2 in totalSimList:
+                simList = totalSimList[e_id_2]
+                sim = simList[0]*attrWeight+simList[1]*descWeight
+                if(sim>maxSim):
+                    maxSim = sim
+                    resultId = e_id_2
+            if(maxSim>count_threshold):
+                resultMapFile.write(str(e_id_1)+" "+str(resultId)+"\n")
+                resultDetailFile.write(
+                    str(e_id_1)+" "+str(e_name_1)+" "+str(resultId)+" "+str(entities2[int(resultId)][1])+" "+str(maxSim)+" "+
+                    str(totalSimList[resultId][1])+" "+str(totalSimList[resultId][0])+" "+
+                    str(totalSimList[resultId][2])+"\n")
+            candidatesFile.write(str(e_id_1) + " " + str(id_set.__len__()) + " " + str(id_set) + "\n")
+            print(entry1)
+            print(entities2[int(resultId)])
         num += 1
-        entryNumberFile.write(num)
-        print(entry1)
-        print(entities2[int(resultId)])
     print("实体对齐阶段结束！")

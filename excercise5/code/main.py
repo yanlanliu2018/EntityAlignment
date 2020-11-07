@@ -87,7 +87,7 @@ if __name__=='__main__':
     #         file.write("0")
 
 
-    resultMap, candidates, resultDetail=alignment_by_nameAttrBert(
+    alignment_by_nameAttrBert(
         xueke=xueke, entity_data1=entity_data1, entity_data2=entity_data2,
         tfidfs_entity1=tfidfs_entity1, cand=cand, threshold_for_cands=indexThreshold,
         edit_threshold=edit_threshold, bert_threshold=bert_threshold,

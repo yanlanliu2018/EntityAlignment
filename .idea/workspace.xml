@@ -2,195 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d79ad3-cf45-4878-acc5-fe271ee2a69b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/excercise5/code/EA_by_NAD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise5/code/attributes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bert/bert_support.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/code/bert_support.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/code/Index.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/code/Index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/code/LDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/废除/LDA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/code/candidate.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/code/candidate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/code/entities_alignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/废除/entities_alignment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/code/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/code/similarity_caculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/废除/similarity_caculation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/code/EA_by_NAD.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/code/EA_by_NAD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/code/bert_support.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/code/bert_support.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/excercise5/code/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/code/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/code/tf_idf.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/code/tf_idf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/WordIdfs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/annotion_ids.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/baidu_tfidf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/baidu_words.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/getIdsByKeyWord/candidates_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/getIdsByKeyWord/result_detail_threshold0.4_min_sim_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/getIdsByKeyWord/result_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/getIdsByName/candidates_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/getIdsByName/result_detail_threshold0.4_min_sim_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/getIdsByName/result_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/getIdsBySameName/candidates_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/getIdsBySameName/result_detail_threshold0.4_min_sim_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/getIdsBySameName/result_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/hudong_tfidf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/hudong_words.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/jisuanji/WordIdfs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/jisuanji/annotion_ids.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/jisuanji/baidu_tfidf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/jisuanji/baidu_words.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/jisuanji/getIdsByKeyWord/candidates_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/jisuanji/getIdsByKeyWord/result_detail_threshold0.4_min_sim_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/jisuanji/getIdsByKeyWord/result_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/jisuanji/getIdsByName/candidates_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/jisuanji/getIdsByName/result_detail_threshold0.4_min_sim_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/jisuanji/getIdsByName/result_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/jisuanji/getIdsBySameName/candidates_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/jisuanji/getIdsBySameName/result_detail_threshold0.4_min_sim_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/jisuanji/getIdsBySameName/result_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/jisuanji/hudong_tfidf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/jisuanji/hudong_words.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num1.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num10.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num10lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num10lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num10lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num10lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num11.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num11lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num11lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num11lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num11lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num12.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num12lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num12lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num12lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num12lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num13.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num13lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num13lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num13lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num13lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num14.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num14lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num14lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num14lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num14lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num15.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num15lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num15lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num15lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num15lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num16.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num16lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num16lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num16lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num16lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num17.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num17lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num17lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num17lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num17lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num18.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num18lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num18lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num18lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num18lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num19.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num19lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num19lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num19lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num19lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num1lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num1lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num1lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num1lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num2.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num20.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num20lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num20lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num20lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num20lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num2lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num2lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num2lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num2lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num3.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num3lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num3lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num3lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num3lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num4.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num4lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num4lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num4lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num4lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num5.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num5lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num5lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num5lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num5lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num6.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num6lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num6lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num6lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num6lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num7.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num7lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num7lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num7lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num7lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num8.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num8lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num8lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num8lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num8lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num9.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num9lda.model" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num9lda.model.expElogbeta.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num9lda.model.id2word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/lda_model/dict_topic_num9lda.model.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/file/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/renwu/WordIdfs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/renwu/annotion_ids.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/renwu/baidu_tfidf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/renwu/baidu_words.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/renwu/getIdsByKeyWord/candidates_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/renwu/getIdsByKeyWord/result_detail_threshold0.4_min_sim_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/renwu/getIdsByKeyWord/result_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/renwu/getIdsByName/candidates_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/renwu/getIdsByName/result_detail_threshold0.4_min_sim_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/renwu/getIdsByName/result_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/renwu/getIdsBySameName/candidates_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/renwu/getIdsBySameName/result_detail_threshold0.4_min_sim_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/renwu/getIdsBySameName/result_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/renwu/hudong_tfidf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/renwu/hudong_words.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/shengwu/WordIdfs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/shengwu/annotion_ids.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/shengwu/baidu_tfidf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/shengwu/baidu_words.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/shengwu/getIdsByKeyWord/candidates_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/shengwu/getIdsByKeyWord/result_detail_threshold0.4_min_sim_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/shengwu/getIdsByKeyWord/result_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/shengwu/getIdsByName/candidates_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/shengwu/getIdsByName/result_detail_threshold0.4_min_sim_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/shengwu/getIdsByName/result_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/shengwu/getIdsBySameName/candidates_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/shengwu/getIdsBySameName/result_detail_threshold0.4_min_sim_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/shengwu/getIdsBySameName/result_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/shengwu/hudong_tfidf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/shengwu/hudong_words.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/yuwenwenxue/WordIdfs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/yuwenwenxue/annotion_ids.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/yuwenwenxue/baidu_tfidf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/yuwenwenxue/baidu_words.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/yuwenwenxue/getIdsByKeyWord/candidates_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/yuwenwenxue/getIdsByKeyWord/result_detail_threshold0.4_min_sim_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/yuwenwenxue/getIdsByKeyWord/result_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/yuwenwenxue/getIdsByName/candidates_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/yuwenwenxue/getIdsByName/result_detail_threshold0.4_min_sim_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/yuwenwenxue/getIdsByName/result_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/yuwenwenxue/getIdsBySameName/candidates_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/yuwenwenxue/getIdsBySameName/result_detail_threshold0.4_min_sim_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/yuwenwenxue/getIdsBySameName/result_threshold0.6_min_sim0.4_topic_num4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/yuwenwenxue/hudong_tfidf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excercise5/file/yuwenwenxue/hudong_words.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/candidates/0.95.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultDetail/0.95.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultMap/0.95.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/temp_entry_number/0.95.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -201,11 +20,11 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/myExcercise$.coverage" NAME="小猪佩奇绘图 Coverage Results" MODIFIED="1555076384785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aha" />
     <SUITE FILE_PATH="coverage/myExcercise$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1591243403312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise4/code" />
-    <SUITE FILE_PATH="coverage/entityAlignment$main.coverage" NAME="main Coverage Results" MODIFIED="1604580734881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
+    <SUITE FILE_PATH="coverage/entityAlignment$main.coverage" NAME="main Coverage Results" MODIFIED="1604740637496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
     <SUITE FILE_PATH="coverage/myExcercise$learning.coverage" NAME="learning Coverage Results" MODIFIED="1555556732008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aha" />
     <SUITE FILE_PATH="coverage/myExcercise$evaluate__1_.coverage" NAME="evaluate (1) Coverage Results" MODIFIED="1591245161875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise4/code" />
     <SUITE FILE_PATH="coverage/myExcercise$shishui.coverage" NAME="shishui Coverage Results" MODIFIED="1555076312212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aha" />
-    <SUITE FILE_PATH="coverage/entityAlignment$test.coverage" NAME="test Coverage Results" MODIFIED="1604578879265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
+    <SUITE FILE_PATH="coverage/entityAlignment$test.coverage" NAME="test Coverage Results" MODIFIED="1604723659659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
     <SUITE FILE_PATH="coverage/myExcercise$IndexByKeyword.coverage" NAME="IndexByKeyword Coverage Results" MODIFIED="1585117937890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/myExcercise$Index.coverage" NAME="Index Coverage Results" MODIFIED="1591158833676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise4/code" />
     <SUITE FILE_PATH="coverage/myExcercise$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1589468167977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Annotations" />
@@ -215,7 +34,7 @@
     <SUITE FILE_PATH="coverage/entityAlignment$attributes.coverage" NAME="attributes Coverage Results" MODIFIED="1603696121732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
     <SUITE FILE_PATH="coverage/myExcercise$hah.coverage" NAME="hah Coverage Results" MODIFIED="1555073735661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/myExcercise$tesst.coverage" NAME="tesst Coverage Results" MODIFIED="1570621106518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aha" />
-    <SUITE FILE_PATH="coverage/entityAlignment$bert_support__1_.coverage" NAME="bert_support (1) Coverage Results" MODIFIED="1604580859962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
+    <SUITE FILE_PATH="coverage/entityAlignment$bert_support__1_.coverage" NAME="bert_support (1) Coverage Results" MODIFIED="1604722735970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
     <SUITE FILE_PATH="coverage/myExcercise$IndexByName.coverage" NAME="IndexByName Coverage Results" MODIFIED="1584449011889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/myExcercise$main.coverage" NAME="main Coverage Results" MODIFIED="1591754962850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
     <SUITE FILE_PATH="coverage/myExcercise$entities_alignment.coverage" NAME="entities_alignment Coverage Results" MODIFIED="1591159699314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise4/code" />
@@ -249,45 +68,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/excercise5/code/attributes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3675">
-              <caret line="149" column="4" selection-start-line="149" selection-start-column="4" selection-end-line="149" selection-end-column="4" />
-              <folding>
-                <element signature="e#42#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/excercise5/code/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3025">
-              <caret line="127" column="56" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="56" />
+            <state relative-caret-position="80">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/excercise5/code/EA_by_NAD.py">
+        <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultDetail/0.95.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2050">
-              <caret line="83" column="98" selection-start-line="83" selection-start-column="98" selection-end-line="83" selection-end-column="98" />
-              <folding>
-                <element signature="e#42#94#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/excercise5/code/bert_support.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-            </state>
+            <state relative-caret-position="-3775" />
           </provider>
         </entry>
       </file>
@@ -302,7 +95,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>死锁</find>
       <find>内核</find>
       <find>汉书</find>
       <find>喜剧</find>
@@ -332,6 +124,7 @@
       <find>load</find>
       <find>cand</find>
       <find>attrName</find>
+      <find>entryNumberFile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -340,11 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/excercise3/code/similarity_caculation.py" />
-        <option value="$PROJECT_DIR$/excercise2/code/Index.py" />
-        <option value="$PROJECT_DIR$/excercise3/code/tf_idf.py" />
-        <option value="$PROJECT_DIR$/excercise3/code/Index.py" />
-        <option value="$PROJECT_DIR$/excercise2/code/candidate.py" />
         <option value="$PROJECT_DIR$/excercise3/code/candidate.py" />
         <option value="$PROJECT_DIR$/Data Annotations/file/yuwenwenxue_hudong_baidu_ids.txt" />
         <option value="$PROJECT_DIR$/Data Annotations/file/jisuanji_hudong_baidu_ids.txt" />
@@ -379,7 +167,6 @@
         <option value="$PROJECT_DIR$/hh.py" />
         <option value="$PROJECT_DIR$/bert/bert_support.py" />
         <option value="$PROJECT_DIR$/excercise5/code/similarity_caculation.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/excercise5/code/candidate.py" />
         <option value="$PROJECT_DIR$/excercise5/废除.py" />
         <option value="$PROJECT_DIR$/excercise5/code/EA_by_name_attribute_description(bert).py" />
@@ -387,17 +174,24 @@
         <option value="$PROJECT_DIR$/excercise5/code/Index.py" />
         <option value="$PROJECT_DIR$/excercise5/file/readme.md" />
         <option value="$PROJECT_DIR$/excercise5/code/attributes.py" />
-        <option value="$PROJECT_DIR$/excercise5/code/test.py" />
         <option value="$PROJECT_DIR$/excercise5/code/main.py" />
-        <option value="$PROJECT_DIR$/excercise5/code/EA_by_NAD.py" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/candidates/0.95.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultDetail/0.95.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultMap/0.95.txt" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/excercise5/file/test.txt" />
         <option value="$PROJECT_DIR$/excercise5/code/bert_support.py" />
+        <option value="$PROJECT_DIR$/excercise5/code/test.py" />
+        <option value="$PROJECT_DIR$/excercise5/code/EA_by_NAD.py" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/temp_entry_number/0.95.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1030" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -421,6 +215,12 @@
               <item name="entityAlignment" type="b2602c69:ProjectViewProjectNode" />
               <item name="entityAlignment" type="462c0819:PsiDirectoryNode" />
               <item name="excercise5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="entityAlignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="entityAlignment" type="462c0819:PsiDirectoryNode" />
+              <item name="excercise5" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="entityAlignment" type="b2602c69:ProjectViewProjectNode" />
@@ -531,7 +331,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bert_support (1)">
+  <component name="RunManager" selected="Python.main">
     <configuration name="attributes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="myExcercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -644,9 +444,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.bert_support (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.bert_support (1)" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.attributes" />
       </list>
@@ -729,12 +529,12 @@
       <workItem from="1603766943687" duration="4236000" />
       <workItem from="1604233638795" duration="701000" />
       <workItem from="1604538147991" duration="26595000" />
-      <workItem from="1604712109862" duration="232000" />
+      <workItem from="1604712109862" duration="17692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="588917000" />
+    <option name="totallyTimeSpent" value="606232000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,23 +546,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2124665" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22117962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3753541" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5892351" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32719547" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -809,7 +609,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/getIdsByName/result_detail_threshold0.4_min_sim_topic_num4.txt" />
     <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/getIdsBySameName/result_detail_threshold0.4_min_sim_topic_num4.txt" />
     <entry file="file://$PROJECT_DIR$/excercise4/file/huaxue/resultForThreshold/result_detail_threshold0.4_min_sim_topic_num4.txt" />
     <entry file="file://$PROJECT_DIR$/excercise4/file/jisuanji/resultForThreshold/result_detail_threshold0.4_min_sim_topic_num4.txt" />
@@ -850,13 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="2845" column="8" selection-start-line="2845" selection-start-column="8" selection-end-line="2845" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -924,14 +716,6 @@
     <entry file="file://$PROJECT_DIR$/excercise5/file/StopWord.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/excercise5/code/candidate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1400">
@@ -941,9 +725,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/废除/file/huaxue/getIdsByKeyWord/candidates_threshold0.6_min_sim0.4_topic_num4.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/excercise5/废除/file/huaxue/baidu_words.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -959,54 +740,60 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultMap/0.6" />
+    <entry file="file://$PROJECT_DIR$/excercise5/file/candidates.txt" />
+    <entry file="file://$PROJECT_DIR$/excercise5/file/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/废除/file/huaxue/getIdsByKeyWord/candidates_threshold0.6_min_sim0.4_topic_num4.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://D:/Python/Python37/Lib/site-packages/bert_serving/client/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="205" selection-start-line="205" selection-end-line="205" />
+        <state relative-caret-position="23">
+          <caret line="402" selection-start-line="402" selection-end-line="402" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/candidates.txt" />
-    <entry file="file://$PROJECT_DIR$/excercise5/code/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/candidates/0.95.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultDetail/0.95.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/temp_entry_number/0.95.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultMap/0.95.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/excercise5/code/attributes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3675">
-          <caret line="149" column="4" selection-start-line="149" selection-start-column="4" selection-end-line="149" selection-end-column="4" />
+        <state relative-caret-position="132">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
           <folding>
             <element signature="e#42#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/code/main.py">
+    <entry file="file://$PROJECT_DIR$/excercise5/code/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3025">
-          <caret line="127" column="56" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="56" />
+        <state relative-caret-position="130">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/excercise5/code/EA_by_NAD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2050">
-          <caret line="83" column="98" selection-start-line="83" selection-start-column="98" selection-end-line="83" selection-end-column="98" />
+        <state relative-caret-position="1436">
+          <caret line="86" column="37" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="37" />
           <folding>
             <element signature="e#42#94#0" expanded="true" />
           </folding>
@@ -1015,8 +802,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/excercise5/code/bert_support.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="-325">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/candidates/0.95.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="90" column="23" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultMap/0.95.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/temp_entry_number/0.95.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultDetail/0.95.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3775" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/code/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
         </state>
       </provider>
     </entry>

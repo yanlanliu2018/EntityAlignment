@@ -1,16 +1,38 @@
 # ！/usr/bin/env python
 # -*-coding:utf-8-*-
-candidatesFile = open("../file/candidates.txt",'w')
-e_id_1 = 1
-id_set = {1,2,3,4}
-candidatesFile.write(str(e_id_1)+" "+str(id_set.__len__())+" "+str(id_set))
 
-candidatesFile = open("../file/candidates.txt",'r')
-line = candidatesFile.readline()
-list = line.split(" ")
-e_id_1 = int(list[0])
-id_set = int(list[1])
-print(e_id_1.__class__)
-print(e_id_1)
-print(id_set.__class__)
-print(id_set)
+#异常处理
+for i in range(10):
+    try:
+        10/i
+        print(i*10)
+    except Exception as e:
+        print(i)
+        # print(e)
+        raise Exception(e)
+
+
+
+
+# def func(i):
+#     if (i == 1):
+#         return i
+#     else:
+#         return i*10
+#
+# for item in range(10):
+#     print(func(item))
+
+
+# entryNumber_file="../file/huaxue/entity_threshold/temp_entry_number/0.95.txt"
+#
+# entryNumberFile = open(entryNumber_file,'r',encoding='UTF-8')
+# temp_entry_number = entryNumberFile.readline()
+# num = 0
+# print(temp_entry_number)
+# if(temp_entry_number != ''):
+#     num = int(temp_entry_number)
+# print(num)
+# num+=2
+# entryNumberFile = open(entryNumber_file, 'w', encoding='UTF-8')
+# entryNumberFile.write(str(num))

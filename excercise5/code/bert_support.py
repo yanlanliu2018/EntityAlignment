@@ -15,6 +15,8 @@ class BertSupport:
 
     def compute_cosine(self, word1, word2):
         # 使用bert对该对文本进行encode成向量
+        if(word1=="" or word2==""):
+            return 0
         a = self.bc.encode([word1, word2])
         vector_a = np.mat(a[0])
         vector_b = np.mat(a[1])
