@@ -1,6 +1,7 @@
 #！/usr/bin/env python
 #-*-coding:utf-8-*-
 import json
+import numpy as np
 from excercise5.code import Index
 from excercise5.code.bert_support import BertSupport
 
@@ -167,17 +168,30 @@ def entityAttrsSim(xueke,entity1,entity2,edit_threshold,bert_threshold):
     attributes1 = attribute1.split(';')
     attrs1 = {}
     for attr in attributes1:
-        list = attr.split(':')
-        if (len(list) > 1):
-            attrs1[list[0]] = list[1]
+        attr_list = attr.split(':')
+        if (len(attr_list) > 1):
+            attrs1[attr_list[0]] = attr_list[1]
 
     attribute2 = entity2[2]
     attributes2 = attribute2.split(';')
     attrs2 = {}
     for attr in attributes2:
-        list = attr.split(':')
-        if (len(list) > 1):
-            attrs2[list[0]] = list[1]
+        attr_list = attr.split(':')
+        if (len(attr_list) > 1):
+            attrs2[attr_list[0]] = attr_list[1]
+
+
+    #一次性获取所有属性名与属性值的向量表示,并使用字典保存起来，因此就不需要多次调用bert服务,
+    #在 str_set 中存储attr中的所有字符串
+    str_set = set(attrs1.keys()).union(set(attrs1.values())).union(set(attrs2.keys())).union(set(attrs2.values()))
+
+    #防止sttr_set中含有空字符串
+    str_set.add("")
+    str_set.remove("")
+
+    str_list = list(str_set)
+    attr_string_bert = BertSupport().word_list_vector(wordList=str_list)
+
 
     #遍历entity1的所有属性，找到entity2中可以与之对应的属性，并计算属性值的相似度
     #将结果以attrName1:[attrName2,sim]的形式保存在attr_sim_list中
@@ -185,11 +199,10 @@ def entityAttrsSim(xueke,entity1,entity2,edit_threshold,bert_threshold):
     #AttrSimList [{[attr1Name，attr1'Name]:Sim1,[attr1Value，attr1'Value]:Sim1}......]
     # 记录过程数据用于结果分析
     AttrSimList = []
+    attrNameSet2 = set(attrs2.keys())
     for attrName1 in attrs1:
         maxAttrSim = 0
         value1 = attrs1[attrName1]
-        attrNameSet2 = set(attrs2.keys())
-        tempSet = set(attrs2.keys())
         attrName2 = ""
         if(attrName1 in attrNameSet2):
             attrName2=attrName1
@@ -207,21 +220,82 @@ def entityAttrsSim(xueke,entity1,entity2,edit_threshold,bert_threshold):
                 maxAttrSim = 0
                 maxName = "temp"
                 for name in attrNameSet2:
-                    tempSim = BertSupport().compute_cosine(attrName1, name)
-                    if (tempSim>bert_threshold):
-                        maxAttrSim = tempSim
-                        maxName = name
+                    if(attrName1!="" and name!=""):
+                        vector_a = attr_string_bert[attrName1]
+                        vector_b = attr_string_bert[name]
+                        num = float(vector_a * vector_b.T)
+                        denom = np.linalg.norm(vector_a) * np.linalg.norm(vector_b)
+                        # 计算向量余弦
+                        cos = num / denom
+                        # 计算相似度
+                        tempSim = 0.5 + 0.5 * cos
+                        if (tempSim>maxAttrSim):
+                            maxAttrSim = tempSim
+                            maxName = name
                 if(maxAttrSim>bert_threshold):
                     attrName2 = maxName
         if(attrName2 !=""):
-            tempSet.remove(attrName2)
-            attrNameSet2 = set(tempSet)
+            attrNameSet2.remove(attrName2)
+            # tempSet.remove(attrName2)
+            # attrNameSet2 = set(tempSet)
             value2 = attrs2[attrName2]
-            attrSim = BertSupport().compute_cosine(value1, value2)
-            attr_sim_list[attrName1] = [attrName2,attrSim]
+            if(value1!="" and value2!=""):
+                vector_a = attr_string_bert[value1]
+                vector_b = attr_string_bert[value2]
+                num = float(vector_a * vector_b.T)
+                denom = np.linalg.norm(vector_a) * np.linalg.norm(vector_b)
+                # 计算向量余弦
+                cos = num / denom
+                # 计算相似度
+                attrSim = 0.5 + 0.5 * cos
+                attr_sim_list[attrName1] = [attrName2,attrSim]
+                #AttrSimList
+                AttrSimList.append([[attrName1,attrName2,maxAttrSim],[value1,value2,attrSim]])
 
-            #AttrSimList
-            AttrSimList.append([[attrName1,attrName2,maxAttrSim],[value1,value2,attrSim]])
+    #
+    # #遍历entity1的所有属性，找到entity2中可以与之对应的属性，并计算属性值的相似度
+    # #将结果以attrName1:[attrName2,sim]的形式保存在attr_sim_list中
+    # attr_sim_list = {}
+    # #AttrSimList [{[attr1Name，attr1'Name]:Sim1,[attr1Value，attr1'Value]:Sim1}......]
+    # # 记录过程数据用于结果分析
+    # AttrSimList = []
+    # for attrName1 in attrs1:
+    #     maxAttrSim = 0
+    #     value1 = attrs1[attrName1]
+    #     attrNameSet2 = set(attrs2.keys())
+    #     tempSet = set(attrs2.keys())
+    #     attrName2 = ""
+    #     if(attrName1 in attrNameSet2):
+    #         attrName2=attrName1
+    #         maxAttrSim = 1
+    #     else:
+    #         maxName = "temp"
+    #         for name in attrNameSet2:
+    #             tempSim = similarityByEdit(attrName1,name)
+    #             if(tempSim>maxAttrSim):
+    #                 maxAttrSim = tempSim
+    #                 maxName = name
+    #         if(maxAttrSim>edit_threshold):
+    #             attrName2 = maxName
+    #         else:
+    #             maxAttrSim = 0
+    #             maxName = "temp"
+    #             for name in attrNameSet2:
+    #                 tempSim = BertSupport().compute_cosine(attrName1, name)
+    #                 if (tempSim>bert_threshold):
+    #                     maxAttrSim = tempSim
+    #                     maxName = name
+    #             if(maxAttrSim>bert_threshold):
+    #                 attrName2 = maxName
+    #     if(attrName2 !=""):
+    #         tempSet.remove(attrName2)
+    #         attrNameSet2 = set(tempSet)
+    #         value2 = attrs2[attrName2]
+    #         attrSim = BertSupport().compute_cosine(value1, value2)
+    #         attr_sim_list[attrName1] = [attrName2,attrSim]
+    #
+    #         #AttrSimList
+    #         AttrSimList.append([[attrName1,attrName2,maxAttrSim],[value1,value2,attrSim]])
 
     #加上属性的权重值计算属性的总相似度
     filePath1 = "../file/" + xueke + "/weight/hudong_attrWeight"
@@ -233,7 +307,10 @@ def entityAttrsSim(xueke,entity1,entity2,edit_threshold,bert_threshold):
     for attrName1 in attr_sim_list:
         attrName2 = attr_sim_list[attrName1][0]
         attrSim = attr_sim_list[attrName1][1]
-        countSim += attrSim*baidu_attrWeight[attrName2]
+        # countSim += attrSim*(baidu_attrWeight[attrName2]+hudong_attrWeight[attrName1])/2
+        countSim += attrSim
+    if(attr_sim_list.__len__()>0):
+        countSim = countSim/attr_sim_list.__len__()
 
     return countSim,AttrSimList
 

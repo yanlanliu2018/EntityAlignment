@@ -3,13 +3,36 @@
   <component name="ChangeListManager">
     <list default="true" id="82d79ad3-cf45-4878-acc5-fe271ee2a69b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Annotations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Annotations/annotation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Annotations/file/huaxue_hudong_baidu_ids.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Annotations/file/jisuanji_hudong_baidu_ids.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Annotations/file/renwu_hudong_baidu_ids.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Annotations/file/shengwu_hudong_baidu_ids.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Annotations/file/yuwenwenxue_hudong_baidu_ids.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Annotations/test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/excercise5/code/EA_by_NAD.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/code/EA_by_NAD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/code/attributes.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/code/attributes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/excercise5/code/bert_support.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/code/bert_support.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/code/candidate.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/code/candidate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/code/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/code/evaluate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/code/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/excercise5/code/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise5/code/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/file/StopWord.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/candidates/0.95.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultDetail/0.95.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultMap/0.95.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/temp_entry_number/0.95.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/tfidf/WordIdfs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/tfidf/baidu_tfidf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/tfidf/baidu_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/tfidf/hudong_tfidf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/tfidf/hudong_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/weight/baidu_attrWeight" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/weight/baidu_attrs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/weight/hudong_attrWeight" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/file/huaxue/weight/hudong_attrs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise5/file/test.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,21 +43,22 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/myExcercise$.coverage" NAME="小猪佩奇绘图 Coverage Results" MODIFIED="1555076384785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aha" />
     <SUITE FILE_PATH="coverage/myExcercise$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1591243403312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise4/code" />
-    <SUITE FILE_PATH="coverage/entityAlignment$main.coverage" NAME="main Coverage Results" MODIFIED="1604740637496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
+    <SUITE FILE_PATH="coverage/entityAlignment$main.coverage" NAME="main Coverage Results" MODIFIED="1605522776315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
     <SUITE FILE_PATH="coverage/myExcercise$learning.coverage" NAME="learning Coverage Results" MODIFIED="1555556732008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aha" />
     <SUITE FILE_PATH="coverage/myExcercise$evaluate__1_.coverage" NAME="evaluate (1) Coverage Results" MODIFIED="1591245161875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise4/code" />
     <SUITE FILE_PATH="coverage/myExcercise$shishui.coverage" NAME="shishui Coverage Results" MODIFIED="1555076312212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aha" />
-    <SUITE FILE_PATH="coverage/entityAlignment$test.coverage" NAME="test Coverage Results" MODIFIED="1604723659659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
+    <SUITE FILE_PATH="coverage/entityAlignment$test.coverage" NAME="test Coverage Results" MODIFIED="1604924997865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
     <SUITE FILE_PATH="coverage/myExcercise$IndexByKeyword.coverage" NAME="IndexByKeyword Coverage Results" MODIFIED="1585117937890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/myExcercise$Index.coverage" NAME="Index Coverage Results" MODIFIED="1591158833676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise4/code" />
     <SUITE FILE_PATH="coverage/myExcercise$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1589468167977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Annotations" />
+    <SUITE FILE_PATH="coverage/entityAlignment$evaluate.coverage" NAME="evaluate Coverage Results" MODIFIED="1605625320414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
     <SUITE FILE_PATH="coverage/myExcercise$tf_idf.coverage" NAME="tf_idf Coverage Results" MODIFIED="1590051331439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise3/code" />
     <SUITE FILE_PATH="coverage/myExcercise$data_clean.coverage" NAME="data_clean Coverage Results" MODIFIED="1590029937706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise3/code" />
     <SUITE FILE_PATH="coverage/myExcercise$evaluate.coverage" NAME="evaluate Coverage Results" MODIFIED="1591755599055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
     <SUITE FILE_PATH="coverage/entityAlignment$attributes.coverage" NAME="attributes Coverage Results" MODIFIED="1603696121732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
     <SUITE FILE_PATH="coverage/myExcercise$hah.coverage" NAME="hah Coverage Results" MODIFIED="1555073735661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/myExcercise$tesst.coverage" NAME="tesst Coverage Results" MODIFIED="1570621106518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aha" />
-    <SUITE FILE_PATH="coverage/entityAlignment$bert_support__1_.coverage" NAME="bert_support (1) Coverage Results" MODIFIED="1604722735970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
+    <SUITE FILE_PATH="coverage/entityAlignment$bert_support__1_.coverage" NAME="bert_support (1) Coverage Results" MODIFIED="1605521401249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
     <SUITE FILE_PATH="coverage/myExcercise$IndexByName.coverage" NAME="IndexByName Coverage Results" MODIFIED="1584449011889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/myExcercise$main.coverage" NAME="main Coverage Results" MODIFIED="1591754962850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise5/code" />
     <SUITE FILE_PATH="coverage/myExcercise$entities_alignment.coverage" NAME="entities_alignment Coverage Results" MODIFIED="1591159699314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercise4/code" />
@@ -67,24 +91,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/excercise5/code/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultDetail/0.95.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3775" />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -95,11 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>内核</find>
-      <find>汉书</find>
-      <find>喜剧</find>
-      <find>劝学</find>
-      <find>唐诗</find>
       <find>TCP</find>
       <find>框架</find>
       <find>磁盘分区</find>
@@ -125,6 +127,11 @@
       <find>cand</find>
       <find>attrName</find>
       <find>entryNumberFile</find>
+      <find>list</find>
+      <find>&quot;188&quot;</find>
+      <find>&quot;179&quot;</find>
+      <find>&quot;1800&quot;</find>
+      <find>&quot;178&quot;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,67 +140,68 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/excercise3/code/candidate.py" />
-        <option value="$PROJECT_DIR$/Data Annotations/file/yuwenwenxue_hudong_baidu_ids.txt" />
-        <option value="$PROJECT_DIR$/Data Annotations/file/jisuanji_hudong_baidu_ids.txt" />
-        <option value="$PROJECT_DIR$/Data Annotations/file/shengwu_hudong_baidu_ids.txt" />
-        <option value="$PROJECT_DIR$/Data Annotations/file/renwu_hudong_baidu_ids.txt" />
-        <option value="$PROJECT_DIR$/Data Annotations/file/huaxue_hudong_baidu_ids.txt" />
-        <option value="$PROJECT_DIR$/excercise3/file/huaxue/huaxue_hudong_baidu_ids.txt" />
-        <option value="$PROJECT_DIR$/Data Annotations/annotation.py" />
-        <option value="$PROJECT_DIR$/excercise3/code/test.py" />
-        <option value="$PROJECT_DIR$/LDA/TEST.py" />
-        <option value="$PROJECT_DIR$/LDA/test.txt" />
-        <option value="$PROJECT_DIR$/excercise3/code/main.py" />
-        <option value="$PROJECT_DIR$/excercise4/code/candidate.py" />
-        <option value="$PROJECT_DIR$/excercise3/code/entities_alignment.py" />
-        <option value="$PROJECT_DIR$/excercise4/code/Index.py" />
-        <option value="$PROJECT_DIR$/excercise4/code/tf_idf.py" />
-        <option value="$PROJECT_DIR$/test1.py" />
-        <option value="$PROJECT_DIR$/excercise4/code/test.py" />
-        <option value="$PROJECT_DIR$/excercise3/code/evaluate.py" />
-        <option value="$PROJECT_DIR$/excercise4/file/renwu/resultForTopicNum/result_detail.txt" />
-        <option value="$PROJECT_DIR$/excercise4/file/readme.md" />
-        <option value="$PROJECT_DIR$/excercise4/file/huaxue/result_detail.txt" />
-        <option value="$PROJECT_DIR$/excercise4/code/LDA.py" />
-        <option value="$PROJECT_DIR$/excercise4/code/similarity_caculation.py" />
-        <option value="$PROJECT_DIR$/excercise4/code/entities_alignment.py" />
-        <option value="$PROJECT_DIR$/excercise4/code/main.py" />
-        <option value="$PROJECT_DIR$/excercise4/code/evaluate.py" />
-        <option value="$PROJECT_DIR$/excercise5/code/entities_alignment.py" />
-        <option value="$PROJECT_DIR$/excercise5/code/evaluate.py" />
-        <option value="$PROJECT_DIR$/excercise5/file/yuwenwenxue/getIdsByKeyWord/result_detail_threshold0.4_min_sim_topic_num4.txt" />
-        <option value="$PROJECT_DIR$/excercise4/file/jisuanji/resultForThreshold/result_detail_threshold0.4_min_sim_topic_num4.txt" />
-        <option value="$PROJECT_DIR$/hh.py" />
-        <option value="$PROJECT_DIR$/bert/bert_support.py" />
-        <option value="$PROJECT_DIR$/excercise5/code/similarity_caculation.py" />
-        <option value="$PROJECT_DIR$/excercise5/code/candidate.py" />
-        <option value="$PROJECT_DIR$/excercise5/废除.py" />
-        <option value="$PROJECT_DIR$/excercise5/code/EA_by_name_attribute_description(bert).py" />
-        <option value="$PROJECT_DIR$/excercise5/code/tf_idf.py" />
-        <option value="$PROJECT_DIR$/excercise5/code/Index.py" />
-        <option value="$PROJECT_DIR$/excercise5/file/readme.md" />
-        <option value="$PROJECT_DIR$/excercise5/code/attributes.py" />
-        <option value="$PROJECT_DIR$/excercise5/code/main.py" />
-        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/candidates/0.95.txt" />
-        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultDetail/0.95.txt" />
-        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultMap/0.95.txt" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/excercise5/file/test.txt" />
-        <option value="$PROJECT_DIR$/excercise5/code/bert_support.py" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/candidates/0.9.txt" />
         <option value="$PROJECT_DIR$/excercise5/code/test.py" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/candidates/0.95.txt" />
+        <option value="$PROJECT_DIR$/excercise5/code/candidate.py" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold(属性未归一化)/readme.md" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/temp_entry_number/0.5.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultMap/0.5.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultDetail/0.5.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/candidates/0.5.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/temp_entry_number/0.9.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/temp_entry_number/0.8.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold(属性与文本0.5+0.5）/readme.md" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultMap/0.9.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/temp_entry_number/0.1.txt" />
+        <option value="$PROJECT_DIR$/excercise5/code/lineChart.py" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/recallAndAccuracy/0.87.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/readme.md" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/indexThreshold/temp_entry_number/0.0.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/indexThreshold/temp_entry_number/0.3.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/indexThreshold/resultDetail/0.4.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/indexThreshold/temp_entry_number/0.4.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/indexThreshold/readme.md" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/indexThreshold/temp_entry_number/0.58.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/attrWeight/readme.md" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/edit_threshold/resultDetail/0.91.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/huaxue/edit_threshold/readme.md" />
+        <option value="$PROJECT_DIR$/excercise5/file/jisuanji/indexThreshold/resultDetail/0.60.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/jisuanji/indexThreshold/readme.md" />
+        <option value="$PROJECT_DIR$/excercise5/file/jisuanji/entity_threshold/readme.md" />
+        <option value="$PROJECT_DIR$/excercise5/file/renwu/indexThreshold/candidates/0.54.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/renwu/indexThreshold/temp_entry_number/0.54.txt" />
+        <option value="$PROJECT_DIR$/excercise5/code/attributes.py" />
+        <option value="$PROJECT_DIR$/excercise5/file/renwu/indexThreshold/candidates/0.00.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/renwu/entity_threshold/readme.md" />
+        <option value="$PROJECT_DIR$/excercise5/file/renwu/indexThreshold/readme.md" />
+        <option value="$PROJECT_DIR$/excercise5/file/renwu/indexThreshold/candidates/0.65.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/shengwu/indexThreshold/readme.md" />
+        <option value="$PROJECT_DIR$/excercise5/file/yuwenwenxue/indexThreshold/candidates/0.60.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/yuwenwenxue/entity_threshold/resultMap/0.86.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/yuwenwenxue/entity_threshold/resultDetail/0.86.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/yuwenwenxue/entity_threshold/candidates/0.86.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/yuwenwenxue/entity_threshold/recallAndAccuracy/0.80.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/shengwu/entity_threshold/readme.md" />
+        <option value="$PROJECT_DIR$/excercise5/file/yuwenwenxue/entity_threshold/readme.md" />
         <option value="$PROJECT_DIR$/excercise5/code/EA_by_NAD.py" />
-        <option value="$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/temp_entry_number/0.95.txt" />
+        <option value="$PROJECT_DIR$/excercise5/code/bert_support.py" />
+        <option value="$PROJECT_DIR$/excercise5/code/main.py" />
+        <option value="$PROJECT_DIR$/excercise5/file/shengwu/indexThreshold/candidates/0.53.txt" />
+        <option value="$PROJECT_DIR$/excercise5/file/yuwenwenxue/indexThreshold/candidates/0.53.txt" />
+        <option value="$PROJECT_DIR$/excercise5/code/evaluate.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1030" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -205,79 +213,6 @@
             <path>
               <item name="entityAlignment" type="b2602c69:ProjectViewProjectNode" />
               <item name="entityAlignment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="entityAlignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="entityAlignment" type="462c0819:PsiDirectoryNode" />
-              <item name="bert" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="entityAlignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="entityAlignment" type="462c0819:PsiDirectoryNode" />
-              <item name="excercise5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="entityAlignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="entityAlignment" type="462c0819:PsiDirectoryNode" />
-              <item name="excercise5" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="entityAlignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="entityAlignment" type="462c0819:PsiDirectoryNode" />
-              <item name="excercise5" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="entityAlignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="entityAlignment" type="462c0819:PsiDirectoryNode" />
-              <item name="excercise5" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="huaxue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="entityAlignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="entityAlignment" type="462c0819:PsiDirectoryNode" />
-              <item name="excercise5" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="huaxue" type="462c0819:PsiDirectoryNode" />
-              <item name="entity_threshold" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="entityAlignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="entityAlignment" type="462c0819:PsiDirectoryNode" />
-              <item name="excercise5" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="huaxue" type="462c0819:PsiDirectoryNode" />
-              <item name="entity_threshold" type="462c0819:PsiDirectoryNode" />
-              <item name="candidates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="entityAlignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="entityAlignment" type="462c0819:PsiDirectoryNode" />
-              <item name="excercise5" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="huaxue" type="462c0819:PsiDirectoryNode" />
-              <item name="entity_threshold" type="462c0819:PsiDirectoryNode" />
-              <item name="resultDetail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="entityAlignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="entityAlignment" type="462c0819:PsiDirectoryNode" />
-              <item name="excercise5" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="huaxue" type="462c0819:PsiDirectoryNode" />
-              <item name="entity_threshold" type="462c0819:PsiDirectoryNode" />
-              <item name="resultMap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="entityAlignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="entityAlignment" type="462c0819:PsiDirectoryNode" />
-              <item name="excercise5" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="huaxue" type="462c0819:PsiDirectoryNode" />
-              <item name="entity_threshold" type="462c0819:PsiDirectoryNode" />
-              <item name="temp_entry_number" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,25 +233,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GCN-Name/CL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\pythonPrograme\entityAlignment\excercise5\废除" />
-      <recent name="D:\pythonPrograme\entityAlignment\bert" />
-      <recent name="D:\pythonPrograme\myExcercise\excercise5\file\yuwenwenxue\getIdsByKeyWord" />
-      <recent name="D:\pythonPrograme\myExcercise\excercise5\file\yuwenwenxue" />
-      <recent name="D:\pythonPrograme\myExcercise\excercise5\file\shengwu" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\pythonPrograme\entityAlignment\excercise5\废除" />
       <recent name="D:\pythonPrograme\entityAlignment\excercise5\code" />
       <recent name="D:\pythonPrograme\myExcercise\excercise5\file\yuwenwenxue\getIdsByKeyWord" />
       <recent name="D:\pythonPrograme\myExcercise\excercise5\file\huaxue\getIdsByKeyWord" />
       <recent name="D:\pythonPrograme\myExcercise\excercise5\file\jisuanji\getIdsByKeyWord" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pythonPrograme\entityAlignment\excercise5\file\yuwenwenxue\entity_threshold" />
+      <recent name="D:\pythonPrograme\entityAlignment\excercise5\file\yuwenwenxue\indexThreshold" />
+      <recent name="D:\pythonPrograme\entityAlignment\excercise5\file\shengwu\entity_threshold" />
+      <recent name="D:\pythonPrograme\entityAlignment\excercise5\file\shengwu\indexThreshold" />
+      <recent name="D:\pythonPrograme\entityAlignment\excercise5\file\renwu\entity_threshold" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -331,29 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="attributes" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="myExcercise" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/excercise5/code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excercise5/code/attributes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.evaluate">
     <configuration name="bert_support (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="myExcercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -368,6 +281,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excercise5/code/bert_support.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="evaluate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myExcercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/excercise5/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excercise5/code/evaluate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -444,11 +379,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.evaluate" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.bert_support (1)" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.attributes" />
       </list>
     </recent_temporary>
   </component>
@@ -529,12 +464,21 @@
       <workItem from="1603766943687" duration="4236000" />
       <workItem from="1604233638795" duration="701000" />
       <workItem from="1604538147991" duration="26595000" />
-      <workItem from="1604712109862" duration="17692000" />
+      <workItem from="1604712109862" duration="18193000" />
+      <workItem from="1604801971542" duration="23668000" />
+      <workItem from="1604885030009" duration="26739000" />
+      <workItem from="1605057506691" duration="25401000" />
+      <workItem from="1605165182717" duration="16923000" />
+      <workItem from="1605230878170" duration="35989000" />
+      <workItem from="1605425818867" duration="48273000" />
+      <workItem from="1605577441320" duration="19512000" />
+      <workItem from="1606264807681" duration="694000" />
+      <workItem from="1606699957278" duration="993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="606232000" />
+    <option name="totallyTimeSpent" value="804925000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -546,15 +490,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-6" y="0" width="781" height="824" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22117962" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.5560166" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5892351" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31303117" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40509915" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -562,8 +506,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33236995" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -571,22 +516,23 @@
       <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19839142" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2727882" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4413013" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40509915" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32673267" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -609,139 +555,90 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/getIdsBySameName/result_detail_threshold0.4_min_sim_topic_num4.txt" />
-    <entry file="file://$PROJECT_DIR$/excercise4/file/huaxue/resultForThreshold/result_detail_threshold0.4_min_sim_topic_num4.txt" />
-    <entry file="file://$PROJECT_DIR$/excercise4/file/jisuanji/resultForThreshold/result_detail_threshold0.4_min_sim_topic_num4.txt" />
-    <entry file="file://$PROJECT_DIR$/excercise4/file/renwu/resultForThreshold/result_detail_threshold0.4_min_sim_topic_num4.txt" />
-    <entry file="file://$PROJECT_DIR$/excercise5/file/renwu/getIdsByName/result_detail_threshold0.4_min_sim_topic_num4.txt" />
-    <entry file="file://$PROJECT_DIR$/excercise5/file/renwu/getIdsBySameName/result_detail_threshold0.4_min_sim_topic_num4.txt" />
-    <entry file="file://$PROJECT_DIR$/spider/file/HuaXue_for_baidu.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Python/Python37/Lib/site-packages/numpy/matrixlib/defmatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="1108" selection-start-line="1108" selection-end-line="1108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh.py" />
-    <entry file="file://$PROJECT_DIR$/baidu.py">
+    <entry file="file://$PROJECT_DIR$/excercise5/file/shengwu/entity_threshold/recallAndAccuracy/0.86.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <caret column="24" selection-start-column="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/getIdsByKeyWord/candidates_threshold0.6_min_sim0.4_topic_num4.txt" />
-    <entry file="file://$PROJECT_DIR$/excercise5/code/data_clean.py">
+    <entry file="file://$PROJECT_DIR$/excercise5/file/shengwu/entity_threshold/recallAndAccuracy/0.00.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/hudong_tfidf.json" />
-    <entry file="file://$PROJECT_DIR$/excercise5/file/jisuanji/hudong_attrWeight" />
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/baidu_attrs" />
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/hudong_attrWeight" />
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/hudong_attrs" />
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/baidu_attrWeight" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-516756811/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="2845" column="8" selection-start-line="2845" selection-start-column="8" selection-end-line="2845" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/jisuanji/baidu_attrWeight" />
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/getIdsByKeyWord/result_detail_threshold0.4_min_sim_topic_num4.txt" />
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/getIdsByKeyWord/result_threshold0.6_min_sim0.4_topic_num4.txt" />
-    <entry file="file://$PROJECT_DIR$/excercise5/废除/LDA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#43#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/废除.py" />
-    <entry file="file://$PROJECT_DIR$/excercise5/废除/similarity_caculation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3500">
-          <caret line="140" column="25" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
-          <folding>
-            <element signature="e#43#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/废除/file/renwu/baidu_attrs">
+    <entry file="file://$PROJECT_DIR$/excercise5/file/yuwenwenxue/indexThreshold/recallAndAccuracy/0.50.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/tfidf/hudong_words.json">
+    <entry file="file://$PROJECT_DIR$/excercise5/file/yuwenwenxue/indexThreshold/recallAndAccuracy/0.54.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/废除/entities_alignment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="8" />
-          <folding>
-            <element signature="e#45#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/code/Index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="127" column="68" selection-start-line="127" selection-start-column="57" selection-end-line="127" selection-end-column="68" />
-          <folding>
-            <element signature="e#42#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/code/evaluate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#42#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/tfidf/hudong_tfidf.json">
+    <entry file="file://$PROJECT_DIR$/excercise5/file/yuwenwenxue/indexThreshold/recallAndAccuracy/0.49.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/StopWord.txt">
+    <entry file="file://$PROJECT_DIR$/excercise5/file/yuwenwenxue/indexThreshold/recallAndAccuracy/0.48.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/code/candidate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1400">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="e#42#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/废除/file/huaxue/baidu_words.json">
+    <entry file="file://$PROJECT_DIR$/excercise5/file/yuwenwenxue/indexThreshold/recallAndAccuracy/0.52.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/code/tf_idf.py">
+    <entry file="file://$PROJECT_DIR$/excercise5/file/yuwenwenxue/entity_threshold/recallAndAccuracy/0.86.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/yuwenwenxue/entity_threshold/recallAndAccuracy/0.87.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/yuwenwenxue/entity_threshold/recallAndAccuracy/0.80.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/bert_threshold/recallAndAccuracy/0.90.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/bert_threshold/resultMap/0.90.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="117" column="4" lean-forward="true" selection-start-line="117" selection-start-column="4" selection-end-line="118" selection-end-column="46" />
-          <folding>
-            <element signature="e#42#53#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-4103" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultMap/0.6" />
-    <entry file="file://$PROJECT_DIR$/excercise5/file/candidates.txt" />
-    <entry file="file://$PROJECT_DIR$/excercise5/file/readme.md">
+    <entry file="file://$PROJECT_DIR$/excercise5/file/yuwenwenxue/edit_threshold/recallAndAccuracy/0.50.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/yuwenwenxue/edit_threshold/recallAndAccuracy/0.60.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/yuwenwenxue/edit_threshold/recallAndAccuracy/0.70.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/yuwenwenxue/edit_threshold/recallAndAccuracy/0.80.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/yuwenwenxue/edit_threshold/recallAndAccuracy/1.00.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/jisuanji/entity_threshold/recallAndAccuracy/0.85.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/jisuanji/indexThreshold/recallAndAccuracy/0.55.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/jisuanji/indexThreshold/recallAndAccuracy/0.54.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/jisuanji/indexThreshold/resultMap/0.50.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/jisuanji/indexThreshold/recallAndAccuracy/0.50.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/jisuanji/entity_threshold/recallAndAccuracy/0.84.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/jisuanji/entity_threshold/recallAndAccuracy/0.86.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataAnnotations/file/huaxue_hudong_baidu_ids.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4453" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/yuwenwenxue/indexThreshold/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -749,94 +646,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/废除/file/huaxue/getIdsByKeyWord/candidates_threshold0.6_min_sim0.4_topic_num4.txt">
+    <entry file="file://$PROJECT_DIR$/excercise5/file/renwu/indexThreshold/recallAndAccuracy/0.56.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://D:/Python/Python37/Lib/site-packages/bert_serving/client/__init__.py">
+    <entry file="file://$PROJECT_DIR$/excercise5/file/renwu/indexThreshold/recallAndAccuracy/0.58.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/renwu/indexThreshold/recallAndAccuracy/0.60.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/renwu/indexThreshold/recallAndAccuracy/0.62.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/renwu/indexThreshold/recallAndAccuracy/0.64.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/renwu/entity_threshold/recallAndAccuracy/0.84.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/renwu/entity_threshold/resultMap/0.84.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="402" selection-start-line="402" selection-end-line="402" />
+        <state relative-caret-position="-4395" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/shengwu/entity_threshold/recallAndAccuracy/0.85.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/shengwu/entity_threshold/resultMap/0.85.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4470" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/renwu/indexThreshold/recallAndAccuracy/0.65.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/indexThreshold/candidates/0.53.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/code/attributes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-          <folding>
-            <element signature="e#42#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/renwu/indexThreshold/recallAndAccuracy/0.63.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/code/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/test.txt">
+    <entry file="file://$PROJECT_DIR$/excercise5/file/yuwenwenxue/indexThreshold/candidates/0.53.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/code/EA_by_NAD.py">
+    <entry file="file://$PROJECT_DIR$/excercise5/file/yuwenwenxue/indexThreshold/recallAndAccuracy/0.53.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-516756811/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1436">
-          <caret line="86" column="37" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="37" />
-          <folding>
-            <element signature="e#42#94#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="4448" column="8" selection-start-line="4448" selection-start-column="8" selection-end-line="4448" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/code/bert_support.py">
+    <entry file="file://$PROJECT_DIR$/excercise5/file/shengwu/indexThreshold/recallAndAccuracy/0.53.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/renwu/indexThreshold/recallAndAccuracy/0.54.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/shengwu/indexThreshold/candidates/0.53.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-325">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="4700">
+          <caret line="188" column="13" lean-forward="true" selection-start-line="188" selection-start-column="13" selection-end-line="188" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/candidates/0.95.txt">
+    <entry file="file://$PROJECT_DIR$/excercise5/file/renwu/indexThreshold/candidates/0.54.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="90" column="23" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+        <state relative-caret-position="295">
+          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultMap/0.95.txt">
+    <entry file="file://$PROJECT_DIR$/excercise5/code/evaluate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+        <state relative-caret-position="606">
+          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/temp_entry_number/0.95.txt">
+    <entry file="file://$PROJECT_DIR$/excercise5/file/jisuanji/indexThreshold/recallAndAccuracy/0.53.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/indexThreshold/recallAndAccuracy/0.53.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise5/file/jisuanji/indexThreshold/candidates/0.53.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        <state relative-caret-position="630">
+          <caret line="186" column="2" selection-start-line="186" selection-start-column="2" selection-end-line="186" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/file/huaxue/entity_threshold/resultDetail/0.95.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3775" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/excercise5/code/lineChart.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/excercise5/code/main.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="25">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>

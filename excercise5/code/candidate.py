@@ -100,4 +100,5 @@ class candidate():
         idsByName = self.get_candidate_by_name(entry)
         idsByKeyword = self.get_candidate_by_keyword(word_tfidf,threshold)
         ids_set=idsByName.intersection(idsByKeyword)
+        # ids_set = idsByName.union(idsByKeyword)
         return ids_set

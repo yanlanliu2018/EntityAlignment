@@ -2,6 +2,7 @@
 #-*-coding:utf-8-*-
 from excercise5.code.bert_support import BertSupport
 from excercise5.code.attributes import entityAttrsSim
+import os
 
 def alignment_by_nameAttrBert(xueke,entity_data1,entity_data2,tfidfs_entity1,cand,threshold_for_cands,
                               edit_threshold,bert_threshold,attrWeight,descWeight,count_threshold,
@@ -39,14 +40,19 @@ def alignment_by_nameAttrBert(xueke,entity_data1,entity_data2,tfidfs_entity1,can
     resultDetailFile = open(resultDetail_file,'a',encoding='UTF-8')
     candidatesFile = open(candidates_file,'a',encoding='UTF-8')
 
+    if(not os.path.exists(entryNumber_file)):
+        entryNumberFile = open(entryNumber_file, 'w', encoding='UTF-8')
+    # entryNumberFile.close()
     entryNumberFile = open(entryNumber_file,'r',encoding='UTF-8')
     temp_entry_number = entryNumberFile.readline()
     num = 0
     if(temp_entry_number != ''):
         num = int(temp_entry_number)
-
+    # entryNumberFile.close()
     entryNumberFile = open(entryNumber_file, 'w', encoding='UTF-8')
     while num<entity_data1.__len__():
+    # num = 187
+    # while num < 188:
         print("已经对齐了" + str(num) + "条数据")
         entry1 = entities1[num]
         e_id_1=entry1[0]
@@ -73,8 +79,17 @@ def alignment_by_nameAttrBert(xueke,entity_data1,entity_data2,tfidfs_entity1,can
                 except Exception as e:
                     print("num:"+str(num))
                     entryNumberFile.write(str(num))
-                    raise Exception(e)
 
+                    entryNumberFile.close()
+                    candidatesFile.close()
+                    resultDetailFile.close()
+                    resultMapFile.close()
+
+                    # print(e)
+
+                    raise Exception(e)
+                if(attrSim==0):
+                    attrSim=descSim
                 totalSimList[e_id_2] = [attrSim,descSim,AttrSimList]
         if(id_set.__len__()>0):
             resultId = entry1[0] #初始化

@@ -1,121 +1,113 @@
 #！/usr/bin/env python
 #-*-coding:utf-8-*-
 from collections import defaultdict
+import os
 
-import pymysql
+#测试数据集中可对齐实体的个数
+# huaxue_entity_count = 193
+# jisuanji_entity_count = 181
+# renwu_entity_count = 196
+# shengwu_entity_count = 187
+# yuwenwenxue_entity_count = 192
+entity_count = {"huaxue":193,"jisuanji":181,"renwu":196,"shengwu":187,"yuwenwenxue":192}
 
-mysqlDbparams = {
-        'host': '127.0.0.1',
-        'port': 3306,
-        'user': 'root',
-        'password': '123456',
-        'database': 'baidu_baike',
-        'charset': 'utf8'  # mysql中的编码就是utf8
-    }
-conn_baidu = pymysql.connect(**mysqlDbparams)
-cursor_baidu = conn_baidu.cursor()
+def get_recallAndAccuracy(xueke,inFile,outFile):
+    #存储标准数据的文件  D:\pythonPrograme\entityAlignment\Data Annotations\file\huaxue_hudong_baidu_ids.txt
+    # dataFile = "../DataAnnotations/file/"+xueke+"_hudong_baidu_ids.txt"
+    dataFile = "D:/pythonPrograme/entityAlignment/DataAnnotations/file/"+xueke+"_hudong_baidu_ids.txt"
 
-#获取互动百科库的连接
-mysqlDbparams_hudong = {
-        'host': '127.0.0.1',
-        'port': 3306,
-        'user': 'root',
-        'password': '123456',
-        'database': 'hudong_baike',
-        'charset': 'utf8'  # mysql中的编码就是utf8
-    }
-conn_hudong = pymysql.connect(**mysqlDbparams_hudong)
-cursor_hudong = conn_hudong.cursor()
+    data = open(dataFile,'r',encoding="UTF-8")
 
-def get_result_detail(in_file,out_file):
-    input_file = open(in_file,'r',encoding='utf-8')
-    output_file = open(out_file,'w',encoding='utf-8')
-    output_file.write("百度词条 互动词条 相似度\n")
-    for line in input_file:
+    inData = open(inFile,'r',encoding="UTF-8")
+
+    if(not os.path.exists(outFile)):
+        os.makedirs(outFile)
+    outData = open(outFile+inFile.split("/")[-1],'w',encoding="UTF-8")
+
+    #可对齐实体对个数
+    numOf_Reable_Result = entity_count[xueke]
+
+    #记录所有找到的实体对个数
+    numOf_Full_Result = 0
+
+    #正确的实体对个数
+    numOf_correct_Result = 0
+
+    #将标记数据转换为词典：{hudong_id:baidu_id}
+    resultDirect = {}
+    for line in data:
         list = line.split(" ")
-        sql_baidu = 'select * from baidu_spider where id=%s'
-        sql_hudong = 'select * from hudong_spider where id=%s'
-        cursor_baidu.execute(sql_baidu,list[0])
-        output_file.write(str(cursor_baidu.fetchone())+'\n')
-        cursor_hudong.execute(sql_hudong,list[1])
-        output_file.write(str(cursor_hudong.fetchone())+'\n')
-        output_file.write(list[2]+'\r\n')
-    input_file.close()
-    output_file.close()
+        resultDirect[list[0]]=int(list[1])
+
+    #统计 正确的实体对个数 与 记录所有找到的实体对个数
+    for line in inData:
+        list = line.split(" ")
+        numOf_Full_Result+=1
+        if(int(list[1])==resultDirect[list[0]]):
+            numOf_correct_Result += 1
+
+    if(numOf_Full_Result==0):
+        numOf_Full_Result=1
+    accuracy = numOf_correct_Result/numOf_Full_Result
+    recall = numOf_correct_Result/numOf_Reable_Result
+    F=0
+    if ((accuracy+recall) != 0):
+        F = accuracy*recall*2/(accuracy+recall)
+
+    outData.write("accuracy : "+str(accuracy)+" ; recall : "+str(recall)+" ; F : "+str(F))
 
 
-def get_recallAndAccuracy_by_result(leibie):
-    # result_detail_file = "../file/"+leibie+"/resultForMinSim"+"/result_detail.txt"
-    base_path="_threshold0.4_min_sim_topic_num4"
-    result_detail_file = "../file/" + leibie+"/result_detail" +base_path+".txt"
+def get_RR_PC(xueke,inFile):
+    #存储标准数据的文件  D:\pythonPrograme\entityAlignment\Data Annotations\file\huaxue_hudong_baidu_ids.txt
+    # dataFile = "../DataAnnotations/file/"+xueke+"_hudong_baidu_ids.txt"
+    dataFile = "D:/pythonPrograme/entityAlignment/DataAnnotations/file/"+xueke+"_hudong_baidu_ids.txt"
 
-    file_for_result_detail = open(result_detail_file,'w',encoding="utf-8")
-    file_for_result_detail.write("threshold accurate recall F-score aveCandNum CandNumCount row\n")
+    data = open(dataFile,'r',encoding="UTF-8")
 
-    annotions_file="../file/"+leibie+"/annotion_ids.txt"
-    file_for_annotion = open(annotions_file,'r',encoding='utf-8')
-    id_dic = defaultdict(str)
-    #avalible_count:记录可以找到匹配对的个数
-    avalible_count=0
-    for line in file_for_annotion:
-        ids_list = line.split(" ")
-        ids_list[1]=ids_list[1].replace('\n','')
-        id_dic[ids_list[0]]=ids_list[1]
-        if(ids_list[1]!="-1"):
-            avalible_count=avalible_count+1
+    inData = open(inFile,'r',encoding="UTF-8")
 
-    for i in range(1, 2):
-        # i = (i / 10)
-        base_path="_threshold"+str(0.6)+"_min_sim0.4_topic_num4"
+    #可对齐实体对个数
+    numOf_Reable_Result = entity_count[xueke]
 
-        # result_file = "../file/"+leibie+"/resultForMinSim"+"/result_threshold0.4_min_sim"+str(i)+"_topic_num8.txt"
-        result_file = "../file/"+leibie+"/result"+base_path+".txt"
-        file_for_result = open(result_file,'r',encoding='utf-8')
-        #right_count:记录正确匹配的个数
-        right_count = 0
-        #count：记录系统找出的匹配个数
-        count=0
-        for line in file_for_result:
-            count = count+1
-            list = line.split(" ")
-            if(id_dic[list[0]]==list[1]):
-                right_count=right_count+1
+    #候选实体对个数
+    numOf_Full = 0
 
-        # 计算准确度
-        accuracy = round(right_count/count,3)
-        #计算召回率
-        recall = round(right_count/avalible_count,3)
-        #计算综合指标F值F=2*accuracy*recall/(accuracy+recall)
-        F = round(2*accuracy*recall/(accuracy+recall),3)
+    #正确的实体对个数
+    numOf_correct_Result = 0
 
-        #关于候选集合的评价
-        #平均候选集的大小，也就是平均每个候选集合有多少个元素
-        # cands_file = "../file/"+leibie+"/resultForMinSim"+"/candidates_threshold0.4_min_sim"+str(i)+"_topic_num8.txt"
-        cands_file = "../file/"+leibie+"/candidates"+base_path+".txt"
-        file_for_cands = open(cands_file,'r',encoding="utf-8")
-        row = 0#记录总共多少行
-        cand_count=0 #记录所有候选集合的个数的总和
-        for line in file_for_cands:
-            list = line.split(" ")
-            row=row+1
-            cand_count= cand_count+int(list[1])
-        average_cand_num = round(cand_count/count,3)
+    #将标记数据转换为词典：{hudong_id:baidu_id}
+    resultDirect = {}
+    for line in data:
+        list = line.split(" ")
+        resultDirect[list[0]]=int(list[1])
 
-        s = str(i)+" "+str(accuracy)+" "+str(recall)+" "+str(F)+" "+str(average_cand_num)+" "+str(cand_count)+" "+str(row)+"\n"
-        file_for_result_detail.write(s)
-    file_for_result_detail.close()
-    file_for_result.close()
-    file_for_cands.close()
-    file_for_annotion.close()
+
+    #统计 正确的实体对个数 与 记录所有找到的实体对个数
+    for line in inData:
+        line = line.replace("{","").replace("'","").replace("\n","").replace("}","").replace(",","")
+        list = line.split(" ")
+        numOf_Full += int(list[1])
+        s = set()
+        n = 2
+        while n<list.__len__():
+            s.add(int(list[n]))
+            n+=1
+        print(resultDirect[list[0]])
+        print(s)
+        if(resultDirect[list[0]] in s ):
+            numOf_correct_Result+=1
+
+    print("可对其实体对数量："+str(numOf_correct_Result))
+    print("候选实体对数量："+str(numOf_Full))
+
 
 
 if __name__=='__main__':
-    get_recallAndAccuracy_by_result("huaxue")
-
-    get_recallAndAccuracy_by_result("jisuanji")
-
-    get_recallAndAccuracy_by_result("renwu")
-
-    get_recallAndAccuracy_by_result("shengwu")
-
-    get_recallAndAccuracy_by_result("yuwenwenxue")
+    inFile = "../file/huaxue/indexThreshold/candidates/0.53.txt"
+    get_RR_PC("huaxue",inFile)
+    # num = 7
+    # while num< 7.92:
+    #     inFile = "../file/yuwenwenxue/edit_threshold/resultMap/"+str('%.2f' % (num/10))+".txt"
+    #     outFile = "../file/yuwenwenxue/edit_threshold/recallAndAccuracy/"
+    #     get_recallAndAccuracy("yuwenwenxue",inFile,outFile)
+    #     num+=1

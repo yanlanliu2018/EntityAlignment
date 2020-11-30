@@ -4,7 +4,7 @@ from bert_serving.client import BertClient
 import numpy as np
 
 DEV_BERT_SERVER_IP="192.168.1.150"
-
+# DEV_BERT_SERVER_IP="10.166.38.82"
 class BertSupport:
     def __init__(self, use_timeout = True):
         if use_timeout:
@@ -28,6 +28,12 @@ class BertSupport:
         sim = 0.5 + 0.5 * cos
         return sim
 
+    def word_list_vector(self,wordList):
+        a = self.bc.encode(wordList)
+        d = {}
+        for i in range(a.__len__()):
+            d[wordList[i]] = np.mat(a[i])
+        return d
 
     def compute_distance(self, word1, word2):
         a = self.bc.encode([word1, word2])
